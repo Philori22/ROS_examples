@@ -6,7 +6,7 @@ While reviewing basics for the ROS operting system and framework, some packages 
 
 
 ### ROS Topics
-**To ROS nodes 'listener' and 'talker' simply Publishing and Subscribing to String messages**
-**Using TurtleSim environment, 'speed_pub' Node publishes random values for angular and linear velocity**
+* 'talker' and 'listener' ROS nodes, publishing and subscirbing String msgs
+* 'Speed_pub' node for Turtlesim environment, publishing Geometry msgs (Angular and linear velocity)
 
 #### To-be updated
