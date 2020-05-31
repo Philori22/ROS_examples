@@ -11,7 +11,7 @@ Nodes send (publish) messages on channels called 'topics', and listen for messag
 ### ROS Topics
 A node sends out a message by _publishing_ it in a given topic. The topic name can be used to identify the content of the message. The node interested in a certin type of data will _subscribe_ to the approprite topic.
 * Nodes _publishing & subscribing_ to topic with string messsage "Hello World" _(how surprising)_ 
-* Speed_pub package publishes geometry mesages (Angular and linear velocity) to the `/turtle1/cmd_vel` topic, to move Turtlesim turtle.
+* __Speed_pub package__ publishes geometry mesages (Angular and linear velocity) to the `/turtle1/cmd_vel` topic, to move Turtlesim turtle.
 ### ROS Services
 
 
