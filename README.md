@@ -12,7 +12,7 @@ Nodes send (publish) messages on channels called 'topics', and listen for messag
 A node sends out a message by _publishing_ it in a given topic. The topic name can be used to identify the content of the message. The node interested in a certin type of data will _subscribe_ to the approprite topic.
 * [Example 1](http://github.com): **_publishing & subscribing_** to _topic_, with string messsage "Hello World" _(how surprising)_ .
   > **_talker.cpp_, 'talker'** publisher node, publishes the String message 'Hello world' to _topic_ "chatter", counting the number of messages send with an id.
-  > **_listener.cpp_, 'listener'** subscriber node, subscribes the the "chatter topic" and calls `chatter callback`, which prints an acknowledgement to terminal with the number message id.
+  > **_listener.cpp_, 'listener'** subscriber node, subscribes the the "chatter topic" and calls `chatterCallback()`, which prints an acknowledgement to terminal with the number message id.
 * [Example 2](http://github.com): **_publishing & subscribing_** using Turtlesim. , with geometry messages (Angular and linear velocity).
   > **_robot_move_topics.cpp_, 'speed_pub'** publisher node, publishes geometry messages (Random Angular and linear velocity values) to `/turtle1/cmd_vel` Turtlesim _topic_, to move the turtle aroud the environment. <br>
   > **_turtlesim_pose.cpp_, 'sub_pose'** subscribes to the `/turtle1/pose` Turtlesim _topic_, and prints the turtles position _(x,y,theta)_ to terminal.
