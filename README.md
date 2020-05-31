@@ -27,6 +27,6 @@ Publish/subscribe model is very flexible, but its not appropriate for request/re
 
 ### ROS Laser Rangefinder
 
-## rosserial (connecing to hardware, e.g. Arduino)
+## rosserial (connecting to hardware, e.g. Arduino)
 
 #### To-be updated
