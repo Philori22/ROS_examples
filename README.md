@@ -1,5 +1,5 @@
 # Robot Operating System (ROS) examples
-While reviewing the basics for the ROS framework, some packages were created - the repository contains Basics, Motion, OpenCV, Localization, Navigation and SLAM in ROS. All of the following examples are written in *C++*, with exception to aspects which are otherwise specified.
+Going over the basics for ROS, some code was written in c++, with exception to aspects which require python. The repository contains ROS Basics, Motion, ROS-OpenCV, rosserial, Localization, Navigation and SLAM in ROS.
 
 ## Dependencies
 [finish this off]
