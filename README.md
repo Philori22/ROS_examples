@@ -1,16 +1,17 @@
 # Robot Operating System (ROS) examples
 Going over the basics for ROS, some code was written in c++, with exception to aspects in python. The repository contains _ROS Basics, Motion, ROS-OpenCV, rosserial, Localization, Navigation and SLAM_ in ROS (with small aspect looking to Modelling for Gazebo).
 
-Most of the content based-off the following resources which are also helpsful:
+Alot of the content based-off the following resources, they've been also helpsful:
 * [*University of Bath Unit:* - EE50237: Robotics software](http://www.bath.ac.uk/catalogues/2018-2019/ee/EE50237.html)
 * [*ROS.org:* ROS Documentation Webpage](http://wiki.ros.org/)
 * [*Udemy:* ROS for Beginners: Basics, Motion, and OpenCV](https://www.udemy.com/course/ros-essentials/)
 * [*Udemy:* ROS for Beginners II: Localization, Navigation and SLAM](https://www.udemy.com/course/ros-navigation/)
+* [ros_essentials_cpp by Anis Koubaa Github: ross_essentials_cpp](https://github.com/aniskoubaa/ros_essentials_cpp)
+* [Anis Koubaa Github: navigation](https://github.com/aniskoubaa/ros_course_part2)
 
 
 
-
-## Dependencies
+#### Dependencies
 [finish this off]
 
 ## ROS Basics
