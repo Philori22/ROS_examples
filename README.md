@@ -16,10 +16,10 @@ A node sends out a message by _publishing_ it in a given topic. The topic name c
   > **_listener.cpp_, 'listener'** subscriber node, subscribes the the "chatter topic" and calls `chatterCallback()`, which prints an acknowledgement to terminal with the number message id.
   
   
-* [Example 2](http://github.com): **_publishing & subscribing to Turtlesim _Topics_, `/turtle1/cmd_vel` & `/turtle1/pose`._**
-  > **_robot_move_topics.cpp_, 'speed_pub'** publisher node, publishes geometry messages (Random Angular and linear velocity values) to `/turtle1/cmd_vel` Turtlesim _topic_, to move the turtle aroud the environment. <br>
+* [Example 2](https://github.com/Philori22/ROS_examples/tree/master/Example2): **_publishing & subscribing to Turtlesim _Topics_, `/turtle1/cmd_vel` & `/turtle1/pose`._**
+  > **_robot_move_topics.cpp_**, 'speed_pub' node, publishes geometry messages (Random Angular and linear velocity values) to `/turtle1/cmd_vel` Turtlesim _topic_, to move the turtle around the environment. <br>
   
-  > **_turtlesim_pose.cpp_, 'sub_pose'** subscribes to the `/turtle1/pose` Turtlesim _topic_, and prints the turtles position _(x,y,theta)_ to terminal.
+  > **_turtlesim_pose.cpp_**, 'sub_pose' expands on `speed_pub`, publihes geometry messages to `/turtle1/cmd_vel`; also subscribes to `/turtle1/pose` Turtlesim _topic_, and outputs both pose and geometry parameters _(x,y,theta)_ to terminal.
 
 ### ROS Services
 Publish/subscribe model is very flexible, but its not appropriate for request/reply interactions, which are often needed in distibuted systems. Services establish Request/Reply, which are deined by a pair of message structures: one for for request and one for the reply.
