@@ -10,6 +10,10 @@ Robot Operating system is an open-source, robotics middlweare often used when de
 Nodes are processes that perform some action. these software modules reister with the ROS master node and communicate with other nodes in the system. Each node is independent, but interact with others using the communication capability. The Master node establishes this commuication with other nodes in the system, oftenly with internet protocal called TCPROS in ROS. 
 
 Nodes send (publish) messages on channels called 'topics', and listen for messages by 'subscribing' to the topics.
+### ROS messages (msg)
+http://wiki.ros.org/msg
+
+
 ### ROS Topics
 A node sends out a message by _publishing_ it in a given topic. The topic name can be used to identify the content of the message. The node interested in a certin type of data will _subscribe_ to the approprite topic. The following examples publish and subscribe to a given topic, sending a message of a certain type.
 * [Example 1](https://github.com/Philori22/ROS_examples/blob/master/Example1/): **'chatting' package: _Sending and Receiving "Hello World" messages of type _String_ using `chatter` _topic_, _(how unique)_._**
