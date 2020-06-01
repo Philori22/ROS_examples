@@ -12,7 +12,7 @@ Alot of the content based-off the following resources, with some deviation, they
 
 
 ### Dependencies
-[finish this off]
+[to be finished.]
 
 ## ROS Basics
 Robot Operating system is an open-source, robotics middlweare often used when designing an implementing functionality within robots. You could simply consider it as a peer-to-peer network of processes that are processing data together. This network is comprised of nodes, master, parameter server, messages, services, topics and bags.
