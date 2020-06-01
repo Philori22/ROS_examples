@@ -22,7 +22,7 @@ Nodes are processes that perform some action. these software modules reister wit
 Nodes send (publish) messages on channels called 'topics', and listen for messages by 'subscribing' to the topics.
 ### ROS messages (msg)
 http://wiki.ros.org/msg - provides basis on the concept of messages.
-* Creating custom messages: [example](https://github.com/Philori22/ROS_examples/tree/master/custom_messages)
+* Creating custom messages: [Example](https://github.com/Philori22/ROS_examples/tree/master/custom_messages)
 
 
   > *1)* create 'msg' in your package; <br>
