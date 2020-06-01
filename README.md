@@ -1,6 +1,8 @@
 # Robot Operating System (ROS) examples
 While reviewing the basics for the ROS framework, some packages were created - the repository contains Basics, Motion, OpenCV, Localization, Navigation and SLAM in ROS. All of the following examples are written in *C++*, with exception to aspects which are otherwise specified.
 
+## ROS Dependencies
+[finish this off]
 
 ## ROS Basics
 Robot Operating system is an open-source, robotics middlweare often used when designing an implementing functionality within robots. You could simply consider it as a peer-to-peer network of processes that are processing data together. This network is comprised of nodes, master, parameter server, messages, services, topics and bags.
