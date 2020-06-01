@@ -25,14 +25,14 @@ http://wiki.ros.org/msg - provides basis on the concept of messages.
 * Creating custom messages: [here](https://github.com/Philori22/ROS_examples/tree/master/custom_messages)
 
 
-  > *1)* create 'msg' in your package;
-  > *2)* create message file with '.msg' extension;
-  > *3)* edit the message file by adding the elements (one per line);
-  > *4)* Update the depenencies
-      > in package.xml
-      > in CMakeLists.txt
-  > *5)* compile the package using catkin_make
-  > *6)* make sure that your message is created using `rosmsg show`
+  > *1)* create 'msg' in your package; <br>
+  > *2)* create message file with '.msg' extension; <br>
+  > *3)* edit the message file by adding the elements (one per line); <br>
+  > *4)* Update the depenencies <br>
+      > in package.xml <br>
+      > in CMakeLists.txt <br>
+  > *5)* compile the package using catkin_make <br>
+  > *6)* make sure that your message is created using `rosmsg show` <br>
    
 
 
