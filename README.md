@@ -10,7 +10,7 @@ Nodes are processes that perform some action. these software modules reister wit
 Nodes send (publish) messages on channels called 'topics', and listen for messages by 'subscribing' to the topics.
 ### ROS Topics
 A node sends out a message by _publishing_ it in a given topic. The topic name can be used to identify the content of the message. The node interested in a certin type of data will _subscribe_ to the approprite topic. The following examples publish and subscribe to a given topic, sending a message of a certain type.
-* [Example 1](https://github.com/Philori22/ROS_examples/tree/master/chatting): **_Sending and Receiving "Hello World" messages of type _String_ using `chatter` _topic_, _(how unique)_._**
+* [Example 1](https://github.com/Philori22/ROS_examples/blob/master/Example1/): **_Sending and Receiving "Hello World" messages of type _String_ using `chatter` _topic_, _(how unique)_._**
   > **_talker.cpp_, 'talker'** publisher node, publishes the String message 'Hello world' to _topic_ "chatter", counting the number of messages send with an id. <br>
   
   > **_listener.cpp_, 'listener'** subscriber node, subscribes the the "chatter topic" and calls `chatterCallback()`, which prints an acknowledgement to terminal with the number message id.
