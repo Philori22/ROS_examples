@@ -11,7 +11,7 @@ Alot of the content based-off the following resources, with some deviation, they
 
 
 
-#### Dependencies
+### Dependencies
 [finish this off]
 
 ## ROS Basics
