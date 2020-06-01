@@ -13,7 +13,6 @@ Nodes send (publish) messages on channels called 'topics', and listen for messag
 ### ROS messages (msg)
 http://wiki.ros.org/msg - provides basis on the concept of messages.
 * Creating custom messages: [here](https://github.com/Philori22/ROS_examples/tree/master/custom_messages)
-  > *1)* create subfolder 'msg' in your package; <br> *2)* create file with '.msg' extension where you'll define your custom message & format.
 
 ### ROS Topics
 A node sends out a message by _publishing_ it in a given topic. The topic name can be used to identify the content of the message. The node interested in a certin type of data will _subscribe_ to the approprite topic. The following examples publish and subscribe to a given topic, sending a message of a certain type.
