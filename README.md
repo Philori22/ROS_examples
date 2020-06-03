@@ -20,18 +20,6 @@ Robot Operating system is an open-source, robotics middlweare often used when de
 Nodes are processes that perform some action. these software modules reister with the ROS master node and communicate with other nodes in the system. Each node is independent, but interact with others using the communication capability. The Master node establishes this commuication with other nodes in the system, oftenly with internet protocal called TCPROS in ROS. 
 
 Nodes send (publish) messages on channels called 'topics', and listen for messages by 'subscribing' to the topics.
-### ROS messages (msg)
-http://wiki.ros.org/msg - provides basis on the concept of messages.
-* Creating custom messages: [Example](https://github.com/Philori22/ROS_examples/tree/master/custom_messages)
-
-
-  > *1)* create 'msg' in your package; <br>
-  > *2)* create message file with '.msg' extension; <br>
-  > *3)* edit the message file by adding the elements (one per line); <br>
-  > *4)* Update the depenencies: in package.xml & CMakeLists.txt <br>
-  > *5)* compile the package using catkin_make <br>
-  > *6)* make sure that your message is created using `rosmsg show` <br>
-   
 
 
 ### ROS Topics
@@ -46,6 +34,22 @@ A node sends out a message by _publishing_ it in a given topic. The topic name c
   > **_robot_move_topics.cpp_ - 'speed_pub' node**, publishes geometry messages (Random Angular and linear velocity values) to `/turtle1/cmd_vel` Turtlesim _topic_, to move the turtle around the environment. <br>
   
   > **_turtlesim_pose.cpp_ - 'sub_pose' node**,  expands on `speed_pub`, publishes geometry messages to `/turtle1/cmd_vel`; also subscribes to `/turtle1/pose` Turtlesim _topic_, and outputs both pose and geometry parameters _(x,y,theta)_ to terminal.
+
+### Custom ROS messages (msg)
+http://wiki.ros.org/msg - provides basis on the concept of messages.
+* Creating custom messages: [Example](https://github.com/Philori22/ROS_examples/tree/master/custom_messages)
+
+
+  > *1)* create 'msg' in your package; <br>
+  > *2)* create message file with '.msg' extension; <br>
+  > *3)* edit the message file by adding the elements (one per line); <br>
+  > *4)* Update the depenencies: in package.xml & CMakeLists.txt <br>
+  > *5)* compile the package using catkin_make <br>
+  > *6)* make sure that your message is created using `rosmsg show` <br>
+  
+ * Using Custom ROS Messages.
+  > something something to add here
+   
 
 ### ROS Services
 Publish/subscribe model is very flexible, but its not appropriate for request/reply interactions, which are often needed in distibuted systems. Services establish Request/Reply, which are deined by a pair of message structures: one for for request and one for the reply.
