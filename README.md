@@ -40,10 +40,10 @@ http://wiki.ros.org/msg - provides basis on the concept of messages.
 * Creating custom messages: [Example](https://github.com/Philori22/ROS_examples/tree/master/custom_messages)
 
 > `ros@ubuntu:~/catkin_ws$ rosmsg show weather<br>
-[custom_msgs/weather]: <br>
-int32 id <br>
-string name <br>
-float32 temperature <br>
+[custom_msgs/weather]:
+int32 id 
+string name 
+float32 temperature 
 float32 humidity`
 
 
