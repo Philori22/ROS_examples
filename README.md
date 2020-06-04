@@ -39,13 +39,14 @@ A node sends out a message by _publishing_ it in a given topic. The topic name c
 http://wiki.ros.org/msg - provides basis on the concept of messages.
 * Creating custom messages: [Example](https://github.com/Philori22/ROS_examples/tree/master/custom_messages)
 
+> `ros@ubuntu:~/catkin_ws$ rosmsg show weather<br>
+[custom_msgs/weather]:<br>
+int32 id<br>
+string name<br>
+float32 temperature<br>
+float32 humidity`
 
-  > *1)* create 'msg' in your package; <br>
-  > *2)* create message file with '.msg' extension; <br>
-  > *3)* edit the message file by adding the elements (one per line); <br>
-  > *4)* Update the depenencies: in package.xml & CMakeLists.txt <br>
-  > *5)* compile the package using catkin_make <br>
-  > *6)* make sure that your message is created using `rosmsg show` <br>
+
   
  * Using Custom ROS Messages.
   > something something to add here
