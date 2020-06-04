@@ -36,7 +36,7 @@ A node sends out a message by _publishing_ it in a given topic. The topic name c
   > **_turtlesim_pose.cpp_ - 'sub_pose' node**,  expands on `speed_pub`, publishes geometry messages to `/turtle1/cmd_vel`; also subscribes to `/turtle1/pose` Turtlesim _topic_, and outputs both pose and geometry parameters _(x,y,theta)_ to terminal.
 
 ### Custom ROS messages (msg)
-http://wiki.ros.org/msg - provides basis on the concept of messages.
+http://wiki.ros.org/msg - provides basis on the concept of messages. sometimes the standard message formats are suitable for the hardware or sensor at hand, thus you might have to define your own to use within your system.
 * Creating and using custom messages: [Custom_msg/dogs](https://github.com/Philori22/ROS_examples/tree/master/custom_messages)
 
 ```
