@@ -37,7 +37,7 @@ A node sends out a message by _publishing_ it in a given topic. The topic name c
 
 ### Custom ROS messages (msg)
 http://wiki.ros.org/msg - provides basis on the concept of messages.
-* Creating custom messages: [Example](https://github.com/Philori22/ROS_examples/tree/master/custom_messages)
+* Creating and using custom messages: [Example](https://github.com/Philori22/ROS_examples/tree/master/custom_messages)
 
 ```
 ros@ubuntu:~/catkin_ws$ rosmsg show weather
