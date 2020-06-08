@@ -56,11 +56,8 @@ string breed
 
 ### ROS Services
 Publish/subscribe model is very flexible, but its not appropriate for request/reply interactions, which are often needed in distibuted systems. Services establish Request/Reply, which are deined by a pair of message structures: one for for request and one for the reply.
-* **Service examples:** [link](
+* Creating and using Services: [link](
 https://github.com/Philori22/ROS_examples/tree/master/services_Examples/).
-> [/ros_service_assignment](https://github.com/Philori22/ROS_examples/tree/master/services_Examples/ros_service_assignment) <br>
-> [/services_tut](
-https://github.com/Philori22/ROS_examples/tree/master/services_Examples/services_tut).
 
 ## ROS Motion
 
