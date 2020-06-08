@@ -18,7 +18,7 @@ int64 sum
 
 _____________________________________________________________________________________________________________
 
-**Find the area of a Rectancle using a Service:** [/ros_service_assignment](https://github.com/Philori22/ROS_examples/tree/master/services_Examples/ros_service_assignment).
+**Find the area of a Rectancle using a Service:** [/ros_service_assignment](https://github.com/Philori22/ROS_examples/tree/master/services_Examples/ros_service_assignment).<br>
   **Service file:** `/ros_service_assignment/RectangleAreaService.srv` <br>
   **RectangleAreaService.srv service definition:** The service takes of input of `a` & `b` of type float32 from client, and returns `sum` of type float64.
   ```
