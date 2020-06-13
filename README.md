@@ -62,7 +62,7 @@ https://github.com/Philori22/ROS_examples/tree/master/services_Examples/).
 ## ROS Motion
 Motion in ROS, written in c++, using turtlesim & turtlesim2 simulations. Following the ROS basics tutorial, implements methods that allow for linear movement, and rotation for basic movements. for more complicated features, in turtlesim1, allows for movement to specific positions in the environment.
 
-Code: [link](https://github.com/Philori22/ROS_examples/tree/master/motion)
+* Code: [link](https://github.com/Philori22/ROS_examples/tree/master/motion)
 
 
 ## ROS-OpenCV
